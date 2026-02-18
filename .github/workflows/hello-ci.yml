@@ -9,8 +9,8 @@ jobs:
       - name: install pytest
         run : pip install pytest
         
-      - name: Run Python Tests
-        run: python3 test_calc.py
+      - name: Run Pytest 
+        run: pytest -v
         
 
       - name: Run a greeting
